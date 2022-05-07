@@ -30,7 +30,7 @@ const makeImgList = image => {
 const markup = images.map(makeImgList).join('')
 // console.log(markup)
 ulEl.insertAdjacentHTML("beforeend", markup);
-  // // console.log(ulEl)
+  console.log(ulEl)
  
 //   const UlLi = document.createElement('li');
 //   UlLi.classList.add('gallery__list')
