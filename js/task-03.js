@@ -21,7 +21,7 @@ const makeImgList = image => {
 // console.log(alt)
   return `
   <li class ="gallery__list">
-    <img class="gallery__img" src = ${url}  alt= ${alt} >
+    <img class="gallery__img" src = '${url}'  alt= '${alt}' >
     </img>
   </li>
   `;
